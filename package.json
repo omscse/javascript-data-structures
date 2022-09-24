@@ -1,6 +1,6 @@
 {
   "name": "@javascript-data-structures/collection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Collection of Data Structure implementations written in JavaScript",
   "main": "index.js",
   "scripts": {
