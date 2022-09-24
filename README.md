@@ -16,6 +16,10 @@
 
 # Usage
 
+```
+npm install @javascript-data-structures/collection
+```
+
 ```js
 
 const { PriorityQueue } = require('@javascript-data-structures/collection');
