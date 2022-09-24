@@ -12,7 +12,7 @@
 | Delete the top element | O(logN)          | O(1)              |poll    |
 | Get the size of a Heap | O(1)             | O(1)              |size    |
 		
-**N** _is the number of elements in the heap.}N is the number of elements in the heap._
+**N** _is the number of elements in the heap._
 
 # Usage
 
