@@ -16,9 +16,9 @@
 
 # Usage
 
-```
+```js
 
-const { PriorityQueue } = require('javascript-data-structures');
+const { PriorityQueue } = require('@javascript-data-structures/collection');
 
 //By Default creates a max heap
 let maxHeap = new PriorityQueue();
@@ -26,11 +26,11 @@ let maxHeap = new PriorityQueue();
 maxHeap.add(3);
 maxHeap.add(5);
 maxHeap.add(2);
-console.log(minHeap);
+console.log(maxHeap);
 
 
-console.log(minHeap.toString());
-console.log(minHeap.size);
+console.log(maxHeap.toString());
+console.log(maxHeap.size);
 
 //Min Heap using Comparator Function
 let pq = new PriorityQueue((a,b)=>b-a);
@@ -47,6 +47,7 @@ console.log(pq);
 
 //More Ways to prioritize
 let priorityQueue = new PriorityQueue((pointA, pointB)=>pointB[2]-pointA[2]);
+
 ```
 
 
