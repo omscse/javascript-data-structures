@@ -1,0 +1,27 @@
+{
+  "name": "javascript-data-structures",
+  "version": "1.0.0",
+  "description": "Collection of Data Structure implementations written in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omscse/javascript-data-structures.git"
+  },
+  "keywords": [
+    "heap",
+    "priority",
+    "queue",
+    "data",
+    "structures",
+    "javascript"
+  ],
+  "author": "Omprakash Selvaraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omscse/javascript-data-structures/issues"
+  },
+  "homepage": "https://github.com/omscse/javascript-data-structures#readme"
+}
