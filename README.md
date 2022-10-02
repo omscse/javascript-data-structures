@@ -1,6 +1,7 @@
 # Collection Of Data Structures implemented in JavaScript
 
 [Priority Queue](#priority-queue)
+
 [Trie](#trie)
 
 ## Priority Queue
