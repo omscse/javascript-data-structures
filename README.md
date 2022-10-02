@@ -79,6 +79,8 @@ npm install @javascript-data-structures/collection
 
 ```js
 
+const { Trie } = require('@javascript-data-structures/collection');
+
 let trie = new Trie();
 
 trie.insert("apple");
