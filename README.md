@@ -1,5 +1,8 @@
 # Collection Of Data Structures implemented in JavaScript
 
+[Priority Queue](#priority-queue)
+[Trie](#trie)
+
 ## Priority Queue
 
 ### Complexity
@@ -14,7 +17,7 @@
 		
 **N** _is the number of elements in the heap._
 
-# Usage
+### Usage
 
 ```
 npm install @javascript-data-structures/collection
@@ -54,5 +57,38 @@ let priorityQueue = new PriorityQueue((pointA, pointB)=>pointB[2]-pointA[2]);
 
 ```
 
+## Trie
 
+### Methods
+insert(word) - inserts given word into Trie
+search(word) - search for exact word in the Trie. Returns true if exists, false otherwise.
+startsWith(prefix) - checks if Trie has words satarting with the given prefix. Returns true if exists, false otherwise.
+findAllMatches(prefix) - Retuns all the words matching with the prefix in the Trie.
+
+
+### Usage
+
+```
+npm install @javascript-data-structures/collection
+```
+
+```js
+
+let trie = new Trie();
+
+trie.insert("apple");
+
+trie.insert("app");
+
+trie.insert("apps");
+
+trie.insert("ball");
+
+trie.insert("b");
+
+console.log(trie.search("ba"));
+console.log(trie.startsWith("ball"));
+console.log(trie.findAllMatches("app"));
+
+```
 
