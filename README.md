@@ -1,4 +1,4 @@
-# Collection Of Data Structures implemented in JavaScript
+# Collection of Data Structures implemented in JavaScript
 
 [Priority Queue](#priority-queue)
 
