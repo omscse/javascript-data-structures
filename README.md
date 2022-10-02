@@ -61,9 +61,13 @@ let priorityQueue = new PriorityQueue((pointA, pointB)=>pointB[2]-pointA[2]);
 ## Trie
 
 ### Methods
+
 insert(word) - inserts given word into Trie
+
 search(word) - search for exact word in the Trie. Returns true if exists, false otherwise.
+
 startsWith(prefix) - checks if Trie has words satarting with the given prefix. Returns true if exists, false otherwise.
+
 findAllMatches(prefix) - Retuns all the words matching with the prefix in the Trie.
 
 
