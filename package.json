@@ -16,7 +16,8 @@
     "queue",
     "data",
     "structures",
-    "javascript"
+    "javascript",
+    "trie"
   ],
   "author": "Omprakash Selvaraj",
   "license": "ISC",
